@@ -1,0 +1,8 @@
+# Install pydantic-ai and include optional dependencies for mcp and groq
+pydantic-ai[mcp,groq]==0.1.3
+
+# Install the separate mcp-server-fetch package
+mcp-server-fetch==2025.4.7
+
+# Optional, but good practice for managing environment variables like API keys
+python-dotenv
